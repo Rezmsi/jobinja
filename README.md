@@ -6,7 +6,7 @@ The following tools have been used in this project
 -Apache Spark as processor
 -Kibana as a database visualization tool
 -Elasticsearch as a database
--Python and Pi Spark for programming
+-Python and PySpark for programming
 
 All the tools of this program are executed by a Docker cluster
 
