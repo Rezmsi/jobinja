@@ -1,17 +1,12 @@
 # jobinja
 The following tools have been used in this project
 
-Docker for cluster management
-
-Apache Kafka as a message broker
-
-Apache Spark as processor
-
-Kibana as a database visualization tool
-
-Elasticsearch as a database
-
-Python and Pi Spark for programming
+-Docker for cluster management
+-Apache Kafka as a message broker
+-Apache Spark as processor
+-Kibana as a database visualization tool
+-Elasticsearch as a database
+-Python and Pi Spark for programming
 
 All the tools of this program are executed by a Docker cluster
 
