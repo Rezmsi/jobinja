@@ -13,12 +13,12 @@ The following tools have been used in this project
 
 -Python and PySpark for programming
 
--connectors for connecing tools
+-connectors for connecting tools
 
 
 All the tools of this program are executed by a Docker cluster
 
-1. After running the Docker Compose file and uploading the Kafka image, just run the connector settings in the text file by your Linux engine to establish a connection between Kafka and Spark.
+1. After running the Docker Compose file and uploading the Kafka image( $ docker compose up -d ), just run the connector settings in the txt file by your Linux engine to establish a connection between elasticsearch and Spark.
 2. Then you can run the crawler, which comes in a separate file with the names raw data and crawl items
 3. Run the raw_data file. This crawler is written by Python language and the Beautiful Soup library, which crawls every single item of the desired site and sends it to a Kafka topic (raw_datas) according to the settings that can be changed.
 4. Run the crawl_items file, after that the items are read from the first topic and the favorite ones are extracted and sent to a new topic (jobs_info)
