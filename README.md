@@ -1,11 +1,18 @@
 # jobinja
-The following tools have been used in this project /n
+The following tools have been used in this project
+
 Docker for cluster management
+
 Apache Kafka as a message broker
+
 Apache Spark as processor
+
 Kibana as a database visualization tool
+
 Elasticsearch as a database
+
 Python and Pi Spark for programming
+
 All the tools of this program are executed by a Docker cluster
 
 1. After running the Docker Compose file and uploading the Kafka image, just run the connector settings in the text file by your Linux engine to establish a connection between Kafka and Spark.
