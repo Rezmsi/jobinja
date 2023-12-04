@@ -13,6 +13,9 @@ The following tools have been used in this project
 
 -Python and PySpark for programming
 
+-connectors for connecing tools
+
+
 All the tools of this program are executed by a Docker cluster
 
 1. After running the Docker Compose file and uploading the Kafka image, just run the connector settings in the text file by your Linux engine to establish a connection between Kafka and Spark.
